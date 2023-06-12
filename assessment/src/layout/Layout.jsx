@@ -4,7 +4,6 @@ export const ParentContext = createContext();
 
 const Layout = ({ children }) => {
     const [jobs, setJobs] = useState([])
-    console.log(availableJobs)
 
     useEffect(() => {
         setJobs(availableJobs)
